@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSUET Alumni</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sintony:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <!-- Top Navbar Section -->
+        <div id="top" class="top-navbar">
+            <div class="social-links">
+                <a href="#" target="_blank"><img src="/Images/linkedin.png" alt="LinkedIn"></a>
+                <a href="#" target="_blank"><img src="/Images/twitter.png" alt="Twitter"></a>
+                <a href="#" target="_blank"><img src="/Images/facebook.png" alt="Facebook"></a>
+                <a href="#" target="_blank"><img src="/Images/instagram.png" alt="Instagram"></a>
+            </div>
+            <div class="top-links">
+                <a href="#">My SSUET Online Log-in</a>
+                <a href="#">FAQ</a>
+                <a href="#">ssuet.edu.pk</a>
+                <a href="#"><img src="/Images/logout.png" alt="Log Out"></a>
+            </div>
+        </div>
+
+        <!-- Main Navbar Section -->
+        <div class="main-navbar">
+            <div class="logo">
+                <img src="/Images/f3-01.png" alt="SSUET Logo">
+            </div>
+            <!-- Search Bar and Hamburger Menu -->
+    <div class="search-bar">
+        <input type="text" placeholder="Search...">
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+            <ul class="nav-links">
+                <li><a href="#">Quad News</a></li>
+                <li><a href="#">My SSUET</a></li>
+                <li><a href="#">New Alumni</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Alumni Groups</a></li>
+                <li><a href="#">Engage</a></li>
+            </ul>
+            
+        </div>
+    </nav>
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+
+            <div class="swiper-slide"><img src="/Images/poster-01.png" alt="Slide 1"></div>
+            <div class="swiper-slide"><img src="https://www.ssuet.edu.pk/wp-content/uploads/Career-Counseling.webp" alt="Slide 2"></div>
+            <div class="swiper-slide"><img src="https://www.ssuet.edu.pk/wp-content/uploads/Paid-Internships-Salient-Features.webp" alt="Slide 3"></div>
+            <div class="swiper-slide"><img src="https://www.ssuet.edu.pk/wp-content/uploads/Students-getting-employment-within-6-months.webp" alt="Slide 4"></div>
+            <div class="swiper-slide"><img src="https://www.ssuet.edu.pk/wp-content/uploads/Strong-Industrial-Relation-Salient-Features.webp" alt="Slide 5"></div>
+        </div>
+        <!-- If you want navigation buttons -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <!-- If you want pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    
+    <section id="hero">
+        <div class="container">
+            <div class="hero-item">
+                <img src="/Images/university.png" alt="">
+                <h3>MY SSUET</h3>
+                <p>Get exclusive discounts and offers, request your My SSUET Card, login to My SSUET Online, and more.</p>
+            </div>
+            <div class="hero-item">
+                <img src="/Images/calendar.png" alt="Find An Event">
+                <h3>FIND AN EVENT</h3>
+                <p>From Meeting Minds through to our Armchair Travel series, join us and discover our many events.</p>
+            </div>
+            <div class="hero-item">
+                <img src="/Images/people.png" alt="Join A Group">
+                <h3>JOIN A GROUP</h3>
+                <p>With more than 150 regional alumni groups in over 90 countries, you're sure to find Oxonians near you.</p>
+            </div>
+            <div class="hero-item">
+                <img src="/Images/newspaper-folded.png" alt="Quad News">
+                <h3>QUAD NEWS</h3>
+                <p>Your digital alumni magazine with features, articles, and opinion from around the University.</p>
+            </div>
+            <div class="hero-item">
+                <img src="/Images/gift.png" alt="Discounts & Offers">
+                <h3>DISCOUNTS & OFFERS</h3>
+                <p>We have a great range of resources and exclusive discounts available for SSUET alumni and associates.</p>
+            </div>
+            <div class="hero-item">
+                <img src="/Images/authenticity.png" alt="Alumni Benefits">
+                <h3>ALUMNI BENEFITS</h3>
+                <p>Our exclusive benefits for matriculated alumni of the University.</p>
+            </div>
+            <div class="hero-item">
+                <img src="/Images/id-card.png" alt="My SSUET Card">
+                <h3>MY SSUET CARD</h3>
+                <p>Your key back to Oxford - Discover two affiliation levels: alumni or associate. Check your eligibility.</p>
+            </div>
+            <div class="hero-item">
+                <img src="/Images/education.png" alt="Eligibility">
+                <h3>ELIGIBILITY</h3>
+                <p>Explore the perks accessible to University of SSUET alumni and associates.</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h4>About SSUET Alumni</h4>
+                <p>
+                    A platform to connect, collaborate, and celebrate the achievements of Sir Syed University of Engineering and Technology alumni.
+                </p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#membership">Membership</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-alumni">
+                <h4>Information for Alumni</h4>
+                <ul>
+                    <li><a href="#login">Login/Register</a></li>
+                    <li><a href="#eligibility">Eligibility</a></li>
+                    <li><a href="#update-details">Update Your Details</a></li>
+                    <li><a href="#certificates">Degree Certificates and Ceremonies</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>Email: <a href="mailto:alumni@ssuet.edu.pk">alumni@ssuet.edu.pk</a></p>
+                <p>Phone: +92-21-12345678</p>
+                <p>Address: Sir Syed University, Karachi, Pakistan</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SSUET Alumni. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    
+
+
+       <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="swiper-init.js"></script>
+    <script src="script.js"></script>
+   
+
+</body>
+</html>
